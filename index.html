@@ -3,13 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <title>payBD</title> -->
+    <title>payBD</title>
+    <!-- Daisy UI -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- tailwind -->
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 
 </head>
-<body>
+<body class="bg-[#F4F5F7] h-[100vh] flex
+flex-col justify-center items-center">
 
+    <div class="h-[130px] w-[300px] bg-[url(./assets/bg.png)] bg-cover flex
+    justify-center items-center">
+     
+    <img src="./assets/Group.png" alt="">
+    </div>
+
+<form class="w-[350px] bg-white rounded-2xl p-8">
+    <div>
+<label class="font-semibold" for="">Mobile Number</label>
+<br>
+<input type="text" placeholder="Enter your mobile number" class="input bg-[#F4F5F7] mt-1 rounded-5xl" />
+    </div>
+
+    <div class="mt-5">
+<label class="font-semibold"  for="">4 Digit Pin</label>
+<br>
+<input type="text" placeholder="Enter 4 digit pin" class="input bg-[#F4F5F7] mt-1 rounded-8xl w-full" />
+    </div>
+    <button class="btn bg-[#0874F2]   mt-5 w-full rounded-3xl text-white">Login</button>
+
+</form>
     
 </body>
 </html>
