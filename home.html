@@ -4,8 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home page</title>
+     <!-- Daisy UI -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- tailwind -->
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<!-- font awesome cdn -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
-<body>
-    <h1>Hello! you entered the home page</h1>
+<body class="bg-[#F4F5F7] h-[150vh]">
+
+<div class="max-w-lg mx-auto bg-white rounded-b-xl p-3">
+
+    
+    <div class="min-h-[50px] flex justify-between items-center border-b-1 border-x-gray-50">
+        <div class="flex justify-between items-center">
+       <img src="./assets/Group.png" class="h-[50px]" alt="">
+       <div>
+        <p class="font-semibold">$45000</p>
+        
+        <p class="text-[#08080880]">Available Balance</p>
+       </div>
+        </div>
+        <button class="btn text-[#08080880]"><i class="fa-solid fa-arrow-right-from-bracket rotate-180 text-gray-600"></i> Log Out</button>
+    </div>
+
+<!-- Options section -->
+
+<div class="mt-8 p-3">
+    <h1 class="text-2xl font-bold">🔥 Welcome to PayBD</h1>
+    <p class=" text-gray-600">Enjoy easy and convenient financial services with us. Cash-out charge is low and </p>
+</div>
+
+<!-- options -->
+<div class="min-h-[200px] grid grid-cols-3 max-w-lg mx-auto gap-4 p-3">
+
+    <div class="border-2 border-gray-300 text-center
+     p-3 rounded-xl">
+          <img src="./assets/wallet1.png" class="mx-auto" alt="">
+          <h2>Add Money</h2>
+    </div>
+    <div class="rounded-xl border-2 border-gray-300 text-center p-3">
+          <img src="./assets/send1.png" class="mx-auto" alt="">
+          <h2>Cashout</h2>
+    </div>
+    <div class="rounded-xl border-2 border-gray-300 text-center p-3">
+          <img src="./assets/money1.png" class="mx-auto" alt="">
+          <h2>Transfer Money</h2>
+    </div>
+    <div class="rounded-xl border-2 border-gray-300 text-center p-3">
+          <img src="./assets/bonus1.png" class="mx-auto" alt="">
+          <h2>Get Bonus</h2>
+    </div>
+    <div class="rounded-xl border-2 border-gray-300 text-center p-3">
+          <img src="./assets/purse1.png" class="mx-auto" alt="">
+          <h2>Pay Bill</h2>
+    </div>
+    <div class="rounded-xl border-2 border-gray-300 text-center p-3">
+          <img src="./assets/transaction1.png" class="mx-auto" alt="">
+          <h2>Transactions</h2>
+    </div>
+</div>
+
+</div>
+
+<!-- methods -->
+ <div class="all-form-sections max-w-lg mx-auto">
+    <div>
+  <h1 class="my-5 font-bold">Add Money</h1>
+  <form class=" bg-white rounded-2xl p-8" action="
+  ">
+<div class="mb-3">
+<h1 class="font-semibold">Select a bank</h1>
+<select class="select w-full bg-[#F4F5F7] mt-1 rounded-5xl">
+
+  <option disabled selected>Select a bank</option>
+  <option>IFIC Bank</option>
+  <option>Islami Bank</option>
+  <option>Prime Bank</option>
+  <option>Dutch Bangla Bank</option>
+</select>
+    
+</div>
+<div>
+    <label class="font-semibold" for="">Bank Account Number</label>
+<br>
+<input id="mobile-number" type="text" placeholder="Enter 11 digit account number" class="input w-full bg-[#F4F5F7] mt-1 rounded-5xl" />
+</div>
+
+<div class="mt-3">
+    <label class="font-semibold" for="">Amount to Add</label>
+<br>
+<input id="mobile-number" type="text" placeholder="Add Amount to withdraw" class="input w-full bg-[#F4F5F7] mt-1 rounded-5xl" />
+</div>
+<div class="mt-3">
+    <label class="font-semibold" for="">Pin Number</label>
+<br>
+<input id="mobile-number" type="text" placeholder="Enter 4 digit pin number" class="input w-full bg-[#F4F5F7] mt-1 rounded-5xl" />
+</div>
+
+ <button type="button" id="loginBtn" class="max-w-lg mx-auto btn bg-[#0874F2]   mt-5 w-full rounded-3xl text-white">Add Money</button>
+
+</form>
+
+</div>
+ </div>
+
 </body>
 </html>
